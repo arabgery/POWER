@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
+
+
+/*Фон*/
+body {
+	margin: 0;
+	font-family: Poppins, sans-serif;
+	
+	min-height: 100hv;
+	display: block;
+	justify-content: center;
+	align-items: center;
+	
+
+	                                                                 background: -webkit-linear-gradient(299deg, #061219,#09161d);/* Chrome 10-25, Safari 5.1-6 */                          background: linear-gradient(299deg, #061219,#09161d);/* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */                                               
+
+}
+
+/*Заголовок*/
+	h1 {
+		margin: 0;
+		font-family: Poppins, sans-serif;
+		color: #ffff;
+		font-size: 80px;
+	
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+	.name_h {
+		margin: 0;
+		margin-top: -30px;
+		font-size: 30px;
+		font-family: Poppins, sans-serif;
+		color: #ffff;
+	
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+
+
+/*Карточка ПМБ*/
+	.pmb__card {
+		width: 320px;
+		height: 400px;
+		background-color: #122936;
+		color: #fff;
+		border-radius: 20px;
+		font-weight: 600;
+		text-align: center;
+		text-transform: uppercase;
+		letter-spacing: 1px;
+
+		margin-top: 100px;
+		position: relative;
+		overflow: hidden;
+		margin-left: 640px;
+	}
+	.pmb__card::before {
+		content: "";
+		display: block;
+		width: 100%;
+		height: 100%;
+		background-color: #2196f3;
+		transform: skewY(345deg);
+
+		position: absolute;
+		top: -50%;
+		transition: 0.5s;
+	}
+	.pmb__card:hover::before {
+		transform: skewY(390deg);
+		top: -70%;
+	}
+
+	/*Иконка ПМБ*/
+	.pmb__img {
+		border-radius: 20px;
+		margin-top: 30px;
+		position: relative;
+
+		width: 70%;
+		height: 60%;
+
+		transition: 0.5s;
+	}
+	.pmb__card:hover .pmb__img {
+		width: 50%;
+		height: 40%;
+	}
+
+	/*Кнопка ПМБ*/
+	.pmb__btn {
+		text-decoration: none;
+		color: #fff;
+		font-family: Poppins, sans-serif;
+		background-color: #02a717;
+		cursor: pointer;
+
+		color: inherit;
+		text-transform: inherit;
+		font-weight: inherit;
+		transition: 0.5s;
+		position: relative;
+
+		padding: 15px 30px;
+		border-radius: 30px;
+		top: 10px;
+	}
+	.pmb__btn:hover {
+		background-color: #038614;
+	}
+	.pmb__card:hover .pmb_btn {
+		top: 0;
+	}
+
+	/*Название ПМБ*/
+	.pmb__name {
+		font-size: 38px;
+		margin: 0 0 10px;
+		position: relative;
+		position: relative;
+	}
+
+	/*Описание*/
+	.pmb__price {
+		font-size: 34px;
+		margin: 0 0 30px;
+		position: relative;
+		margin-top: -15px;
+	}
