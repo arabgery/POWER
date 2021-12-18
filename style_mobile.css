@@ -6,10 +6,7 @@ body {
 	margin: 0;
 	font-family: Poppins, sans-serif;
 	
-	min-height: 100hv;
-	display: block;
-	justify-content: center;
-	align-items: center;
+	
 	
 
 	background: -webkit-linear-gradient(299deg, #061219,#09161d);/* Chrome 10-25, Safari 5.1-6 */                        
@@ -56,7 +53,7 @@ body {
 		margin-top: 100px;
 		position: relative;
 		overflow: hidden;
-		margin-left: 640px;
+		margin-left: 200px;
 	}
 	.pmb__card::before {
 		content: "";
